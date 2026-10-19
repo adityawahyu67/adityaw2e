@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #d1d5db;
+    color: #000000;
+    padding: 20px;
+}
+
+.document-container {
+    max-width: 850px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 35px;
+    border: 1px solid #000000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.doc-header h1 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.doc-header h2 {
+    font-size: 15px;
+    text-align: center;
+    color: #111827;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.info-table {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 13px;
+    border-collapse: collapse;
+}
+
+.info-table td {
+    padding: 3px 0;
+}
+
+.divider {
+    border: none;
+    border-top: 2px solid #000000;
+    margin: 15px 0 25px 0;
+}
+
+.doc-section {
+    margin-bottom: 25px;
+}
+
+.doc-section h3 {
+    font-size: 14px;
+    background: #f3f4f6;
+    padding: 6px 10px;
+    border-left: 4px solid #1e3a8a;
+    margin-bottom: 12px;
+}
+
+p, li {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+ul, ol {
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.code-box {
+    background-color: #f9fafb;
+    border: 1px solid #000000;
+    border-left: 4px solid #16a34a;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    margin: 10px 0;
+    white-space: pre-wrap;
+}
+
+/* KODE GARIS KOTAK TABEL TERIKAT BORDER HITAM TEGAS */
+table.pdf-table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin: 12px 0 !important;
+    font-size: 13px !important;
+    background-color: #ffffff !important;
+}
+
+table.pdf-table th, 
+table.pdf-table td {
+    border: 1px solid #000000 !important;
+    padding: 8px 10px !important;
+    text-align: left !important;
+    vertical-align: top !important;
+}
+
+table.pdf-table th {
+    background-color: #f3f4f6 !important;
+    font-weight: bold !important;
+}
+
+/* WARNA JAWABAN */
+.answer {
+    color: #1d4ed8;
+    font-weight: bold;
+}
+
+.answer-box {
+    background-color: #eff6ff;
+    border: 1px solid #000000;
+    padding: 10px;
+    font-size: 13px;
+    color: #1e40af;
+    margin-top: 6px;
+}
+
+.answer-list {
+    color: #1d4ed8;
+    font-weight: bold;
+}
