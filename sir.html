@@ -203,7 +203,10 @@
             
             <p><strong>EKSPERIMEN 10 + 20</strong></p>
             <p>Jangan jalankan terlebih dahulu. Prediksikan hasil:</p>
-            <div class="code-box">let a = "10"; let b = "20"; console.log(a + b);</div>
+            <div class="code-box">let a = "10";
+let b = "20"; 
+console.log(a + b);</div>
+            <img src="aktivitas1.png" width="100%">
 
             <table class="pdf-table">
                 <thead>
@@ -235,7 +238,7 @@
             <h3>D. AKTIVITAS 2 MENEMUKAN TIPE DATA</h3>
             <p>Jalankan:</p>
             <div class="code-box">let nama = "Asep"; let umur = 16; console.log(typeof nama); console.log(typeof umur);</div>
-
+            <img src="aktivitas2.png" width="100%">
             <table class="pdf-table">
                 <thead>
                     <tr>
@@ -271,6 +274,7 @@
             <h3>E. AKTIVITAS 3 KONVERSI STRING MENJADI NUMBER</h3>
             <p>Perbaiki program agar menghasilkan 30. Gunakan Number():</p>
             <div class="code-box">let a = "10"; let b = "20"; let hasil = Number(a) + Number(b); console.log(hasil);</div>
+            <img src="aktivitas3.png" width="100%">
             <p>Catat hasil program: <span class="answer">30</span></p>
         </section>
 
@@ -279,7 +283,7 @@
             <h3>F. AKTIVITAS 4 - PROGRAM KASIR SEDERHANA</h3>
             <p>Buat program yang meminta harga barang dan jumlah barang melalui prompt(), mengubah keduanya menjadi Number, lalu menghitung total harga.</p>
             <div class="code-box">let harga = Number(prompt("Masukkan harga: ")); let jumlah = Number(prompt("Masukkan jumlah: ")); let total = harga * jumlah; console.log("Total belanja = " + total);</div>
-
+            <img src="aktivitas4.png" width="100%">
             <table class="pdf-table">
                 <thead>
                     <tr>
@@ -312,8 +316,18 @@
         <section class="doc-section">
             <h3>G. TANTANGAN PROGRAM HITUNG NILAI</h3>
             <p>Buat program dengan input nilai tugas, UTS, dan UAS. Konversikan semua input menggunakan Number(), lalu hitung rata-rata dengan rumus (tugas + UTS + UAS) / 3.</p>
-            <div class="code-box">let tugas = Number(prompt("Nilai Tugas:")); let uts = Number(prompt("Nilai UTS:")); let uas = Number(prompt("Nilai UAS:")); let rataRata = (tugas + uts + uas) / 3; console.log("Rata-rata = " + rataRata);</div>
-
+            <div class="code-box">
+            <div class="code-box">
+let tugas = Number(prompt("Nilai Tugas:"));<br>
+let uts = Number(prompt("Nilai UTS:"));<br>
+let uas = Number(prompt("Nilai UAS:"));<br><br>
+let rataRata = (tugas + uts + uas) / 3;<br><br>
+console.log("Rata-rata = " + rataRata);
+</div>
+            <img src="nilai tugas.png" width="100%">
+            <img src="uas.png" width="100%">
+            <img src="screenshot/.png" width="100%">
+            <img src="rata rata nilai.png" width="100%">
             <p><strong>Algoritma saya:</strong></p>
             <ol class="answer-list">
                 <li>Meminta input nilai tugas, UTS, dan UAS via prompt().</li>
@@ -465,7 +479,5 @@
             <p style="margin-top: 15px;">Catatan Guru: <span class="answer">Cukup baik, tingkatkan lagi pemahaman konsep penanganan tipe data.</span></p>
         </section>
     </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
